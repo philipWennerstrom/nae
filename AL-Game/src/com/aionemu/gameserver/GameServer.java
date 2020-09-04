@@ -279,7 +279,7 @@ public class GameServer {
 		log.info("Reworked by G-Robson26");
 		log.info("===================================================");
 		log.info("===================================================");
-		log.info("Copyright 2012 - 2019");
+		log.info("Copyright 2012 - 2020");
 		log.info("===================================================");
 		log.info("AL Game Server started in " + (System.currentTimeMillis() - start) / 1000 + " seconds.");
 
