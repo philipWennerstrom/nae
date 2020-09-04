@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.aionlightning</groupId>
 	<artifactId>al-game</artifactId>
@@ -119,7 +121,8 @@
 						<phase>clean</phase>
 						<configuration>
 							<target>
-								<property name="dist-build.jar.path" value="${maven.dependency.org.aionlightning.al-commons.jar.path}" />
+								<property name="dist-build.jar.path"
+									value="${maven.dependency.org.aionlightning.al-commons.jar.path}" />
 								<ant antfile="${basedir}/dist-build.xml" target="clean" />
 							</target>
 						</configuration>
@@ -131,7 +134,8 @@
 						<phase>prepare-package</phase>
 						<configuration>
 							<target>
-								<property name="dist-build.jar.path" value="${maven.dependency.org.aionlightning.al-commons.jar.path}" />
+								<property name="dist-build.jar.path"
+									value="${maven.dependency.org.aionlightning.al-commons.jar.path}" />
 								<ant antfile="${basedir}/dist-build.xml" />
 							</target>
 						</configuration>
@@ -167,6 +171,13 @@
 			<name>Web Media</name>
 			<url>http://maven2.webmedia.ee/</url>
 		</repository>
+		<repository>
+			<id>repository.openmindonline.it</id>
+			<name>openmind repository</name>
+			<url>http://repository.openmindonline.it</url>
+		</repository>
+
+
 	</repositories>
 	<dependencies>
 		<dependency>

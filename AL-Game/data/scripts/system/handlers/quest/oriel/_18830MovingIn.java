@@ -27,7 +27,7 @@
  * @Aion-NextGen
  * @Aion-Core Dev.
  */
-package quest.pernon;
+package quest.oriel;
 
 import java.util.HashSet;
 import java.util.Iterator;

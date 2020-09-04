@@ -1,4 +1,4 @@
-package system.handlers.instance.f14events;
+package instance.f14events;
 
 import com.aionemu.gameserver.instance.handlers.EventID;
 import com.aionemu.gameserver.model.TeleportAnimation;
